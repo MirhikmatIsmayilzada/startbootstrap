@@ -1,13 +1,82 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
+section {
+  padding: 100px 0;
 }
-/*# sourceMappingURL=style.css.map */
+
+header {
+  color: white;
+  background-color: #2b2b2b;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+  background-size: cover;
+  position: static;
+}
+header .menu {
+  position: fixed;
+  padding: 25px 0 25px;
+}
+header .menu .imgbox {
+  width: 150px;
+}
+header .menu nav a {
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-right: 30px;
+}
+header .box {
+  height: 750px;
+}
+header .box .textbox h1 {
+  font-size: 32px;
+}
+header .box .textbox h2 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+#services .textbox {
+  padding: 0 10px;
+}
+#services .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Gill Sans MT", sans-serif;
+}
+#services .textbox h3 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  color: #6c757d;
+  margin: 20px 0 64px;
+  font-style: italic;
+}
+#services .textbox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Gill Sans", sans-serif;
+  margin: 20px 0 25px;
+}
+#services .textbox p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+}
+#services .minibox .icon {
+  background-color: #ffd000;
+  border-radius: 100%;
+  padding: 30px;
+  color: white;
+}
+#services .minibox .icon i {
+  font-size: 60px;
+}/*# sourceMappingURL=style.css.map */
