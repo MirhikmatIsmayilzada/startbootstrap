@@ -19,10 +19,8 @@ header {
   background-color: #2b2b2b;
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
   background-size: cover;
-  position: static;
 }
 header .menu {
-  position: fixed;
   padding: 25px 0 25px;
 }
 header .menu .imgbox {
@@ -79,4 +77,44 @@ header .box .textbox h2 {
 }
 #services .minibox .icon i {
   font-size: 60px;
+}
+
+#portfolio {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+#portfolio .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#portfolio .textbox h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab";
+  color: #6c747a;
+  margin: 24px 0 64px;
+}
+#portfolio .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+#portfolio .textbox h4 {
+  font-size: 18px;
+  color: #6c747a;
+  font-style: italic;
+  font-family: "Roboto Slab";
+}
+#portfolio .imgbox {
+  position: relative;
+}
+#portfolio .imgbox .icon {
+  position: absolute;
+  top: 110px;
+  left: 155px;
+  color: #ffffff;
+  background-color: black;
+}
+#portfolio .imgbox .icon i {
+  font-size: 48px;
 }/*# sourceMappingURL=style.css.map */
