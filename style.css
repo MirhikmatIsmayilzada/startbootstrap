@@ -44,6 +44,7 @@ header .menu nav a {
   font-size: 18px;
   font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-style: italic;
+  font-weight: 400;
   margin: 20px 0 64px;
 }
 #services .textbox h2 {
@@ -55,6 +56,7 @@ header .menu nav a {
 #services .textbox p {
   color: #6c757d;
   font-size: 18px;
+  font-weight: 400;
   font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   line-height: 1.6;
 }
@@ -166,6 +168,9 @@ header .menu nav a {
   padding: 20px 40px;
 }
 
+#amazing {
+  background-color: #f8f9fa;
+}
 #amazing h1 {
   font-size: 40px;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -229,4 +234,38 @@ header .menu nav a {
 }
 #amazing .box ul li .icon i {
   font-size: 16px;
+}
+
+#social {
+  padding: 48px 0;
+}
+
+#contact {
+  background-color: #212529;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+  background-position: center;
+}
+#contact h1, #contact h3, #contact h4 {
+  color: white;
+}
+#contact h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#contact h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #6c747a;
+  margin: 16px 0 64px;
+}
+#contact .btn {
+  background-color: #ffd900;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */
