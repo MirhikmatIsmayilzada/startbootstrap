@@ -36,35 +36,45 @@ header .menu nav a {
 #services .textbox h1 {
   font-size: 40px;
   font-weight: 700;
-  letter-spacing: 1px;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  letter-spacing: 1px;
 }
 #services .textbox h3 {
-  font-family: Georgia, serif;
-  font-size: 18px;
   color: #6c757d;
-  margin: 20px 0 64px;
+  font-size: 18px;
+  font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   font-style: italic;
+  margin: 20px 0 64px;
 }
 #services .textbox h2 {
   font-size: 24px;
   font-weight: 700;
-  font-family: "Gill Sans", sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 20px 0 25px;
 }
 #services .textbox p {
-  font-size: 18px;
   color: #6c757d;
+  font-size: 18px;
+  font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   line-height: 1.6;
-  font-family: Georgia, serif;
 }
-#services .minibox .icon {
+#services ul {
+  display: flex;
+  justify-content: center;
+}
+#services ul li {
   background-color: #ffd000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
-  padding: 30px;
+}
+#services ul li .icon {
   color: white;
 }
-#services .minibox .icon i {
+#services ul li .icon i {
   font-size: 60px;
 }
 
@@ -154,4 +164,69 @@ header .menu nav a {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   padding: 20px 40px;
+}
+
+#amazing h1 {
+  font-size: 40px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+#amazing h3 {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 16px 0 64px;
+}
+#amazing h2 {
+  font-size: 24px;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-top: 24px;
+}
+#amazing h4 {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  margin: 10px 0 22px;
+}
+#amazing .txtbox {
+  width: 670px;
+}
+#amazing .txtbox p {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.6;
+}
+#amazing .box {
+  margin-bottom: 48px;
+}
+#amazing .box .imgbox {
+  border: 8px solid #e0e0e0;
+  border-radius: 100%;
+  width: 224px;
+}
+#amazing .box ul {
+  display: flex;
+  justify-content: center;
+}
+#amazing .box ul li {
+  margin: 0 8px;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+#amazing .box ul li .icon {
+  color: white;
+}
+#amazing .box ul li .icon i {
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
