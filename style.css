@@ -293,6 +293,7 @@ footer h1, footer h2, footer h3 {
   font-size: 15px;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 400;
+  color: #505050;
 }
 footer h2 {
   margin-right: 20px;
