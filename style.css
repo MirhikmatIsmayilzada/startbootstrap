@@ -25,13 +25,29 @@ header {
 }
 header .menu .imgbox {
   width: 140px;
+  cursor: pointer;
+}
+header .menu .btn {
+  display: flex;
+  display: none;
+  color: #9c9c9c;
+  border: 1px solid #9c9c9c;
+  border-radius: 4px;
+  cursor: pointer;
+}
+header .menu .btn h6 {
+  font-weight: 700;
+  margin-right: 10px;
 }
 header .menu nav a {
   font-size: 16px;
   font-weight: 400;
   margin-right: 30px;
+  cursor: pointer;
 }
-
+header .menu nav a:hover {
+  color: #ffc400;
+}
 #services .textbox {
   padding: 0 20px;
 }
@@ -112,15 +128,14 @@ header .menu nav a {
 #portfolio .box .imgbox .icon {
   color: white;
   background-color: #ffc800;
-  position: absolute;
-  top: 0;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 100px 0 0 150px;
+  position: absolute;
+  top: 0;
   transition: 0.5s;
   opacity: 0;
+  cursor: pointer;
 }
 #portfolio .box .imgbox .icon i {
   font-size: 60px;
@@ -261,6 +276,7 @@ header .menu nav a {
   border-radius: 100%;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 #amazing .box ul li .icon {
   color: white;
@@ -271,6 +287,9 @@ header .menu nav a {
 
 #social {
   padding: 48px 0;
+}
+#social .box {
+  cursor: pointer;
 }
 
 #contact {
@@ -298,6 +317,7 @@ header .menu nav a {
   font-size: 18px;
   font-weight: 700;
   opacity: 0.6;
+  cursor: pointer;
 }
 #contact input {
   padding: 21px;
@@ -337,6 +357,7 @@ footer ul li {
   border-radius: 100%;
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 footer ul li .icon {
   color: white;
