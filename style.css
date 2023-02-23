@@ -28,7 +28,6 @@ header .menu .imgbox {
   cursor: pointer;
 }
 header .menu .btn {
-  display: flex;
   display: none;
   color: #9c9c9c;
   border: 1px solid #9c9c9c;
@@ -48,6 +47,36 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #ffc400;
 }
+@media screen and (max-width: 992px) {
+  header .menu .imgbox {
+    width: 140px;
+    cursor: pointer;
+  }
+  header .menu .navbar .btn {
+    display: block;
+    color: #9c9c9c;
+    border: 1px solid #9c9c9c;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  header .menu .navbar .btn h6 {
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  header .menu .navbar nav {
+    display: none;
+  }
+  header .menu .navbar nav a {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  header .menu .navbar nav a:hover {
+    color: #ffc400;
+  }
+}
+
 #services .textbox {
   padding: 0 20px;
 }
