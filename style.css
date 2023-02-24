@@ -27,53 +27,34 @@ header .menu .imgbox {
   width: 140px;
   cursor: pointer;
 }
-header .menu .btn {
+header .menu .navbar .btn {
   display: none;
   color: #9c9c9c;
   border: 1px solid #9c9c9c;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.5s;
 }
-header .menu .btn h6 {
+header .menu .navbar .btn h6 {
   font-weight: 700;
   margin-right: 10px;
 }
-header .menu nav a {
+header .menu .navbar nav a {
   font-size: 16px;
   font-weight: 400;
   margin-right: 30px;
   cursor: pointer;
 }
-header .menu nav a:hover {
+header .menu .navbar nav a:hover {
   color: #ffc400;
 }
 @media screen and (max-width: 992px) {
-  header .menu .imgbox {
-    width: 140px;
-    cursor: pointer;
-  }
   header .menu .navbar .btn {
     display: block;
-    color: #9c9c9c;
-    border: 1px solid #9c9c9c;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  header .menu .navbar .btn h6 {
-    font-weight: 700;
-    margin-right: 10px;
+    display: flex;
   }
   header .menu .navbar nav {
     display: none;
-  }
-  header .menu .navbar nav a {
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 30px;
-    cursor: pointer;
-  }
-  header .menu .navbar nav a:hover {
-    color: #ffc400;
   }
 }
 
@@ -363,7 +344,7 @@ header .menu nav a:hover {
 }
 
 footer {
-  padding: 24px 0;
+  padding: 16px 0;
 }
 footer h1, footer h2, footer h3 {
   font-size: 15px;

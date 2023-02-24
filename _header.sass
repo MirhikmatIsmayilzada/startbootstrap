@@ -10,24 +10,30 @@ header
         .imgbox
             width: 140px
             cursor: pointer
-        .btn
-            display: none
-            color: #9c9c9c
-            border: 1px solid #9c9c9c
-            border-radius: 4px
-            cursor: pointer
-            h6
-                font-weight: 700
-                margin-right: 10px
-            .icon
-                i
-        nav
-            a
-                font-size: 16px
-                font-weight: 400
-                margin-right: 30px
+        .navbar
+            .btn
+                display: none
+                color: #9c9c9c
+                border: 1px solid #9c9c9c
+                border-radius: 4px
                 cursor: pointer
-                &:hover
-                    color: #ffc400
-
-   
+                transition: 0.5s
+                h6
+                    font-weight: 700
+                    margin-right: 10px
+            nav
+                a
+                    font-size: 16px
+                    font-weight: 400
+                    margin-right: 30px
+                    cursor: pointer
+                    &:hover
+                        color: #ffc400
+    @media screen and ( max-width: 992px )
+        .menu
+            .navbar
+                .btn
+                    display: block
+                    display: flex
+                nav
+                    display: none
