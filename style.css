@@ -322,10 +322,19 @@ header .menu .navbar nav a:hover {
 }
 
 #social {
-  padding: 48px 0;
+  padding: 50px 0;
 }
-#social .box {
-  cursor: pointer;
+#social .one {
+  width: 210px;
+}
+#social .two {
+  width: 120px;
+}
+#social .three {
+  width: 170px;
+}
+#social .four {
+  width: 110px;
 }
 
 #contact {
