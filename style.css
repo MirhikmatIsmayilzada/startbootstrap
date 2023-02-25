@@ -166,11 +166,8 @@ header .menu .navbar nav a:hover {
   opacity: 0.9;
 }
 
-#about li {
-  margin-bottom: 100px;
-}
 #about .textbox {
-  width: 461px;
+  width: 448px;
   padding: 0 85px;
 }
 #about .textbox h1 {
@@ -353,7 +350,7 @@ header .menu .navbar nav a:hover {
   font-size: 18px;
   font-weight: 400;
   color: #6c747a;
-  margin: 16px 0 64px;
+  margin: 16px 0 32px;
 }
 #contact .btn {
   background-color: #ffd900;
