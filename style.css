@@ -167,10 +167,10 @@ header .menu .navbar nav a:hover {
 }
 
 #about {
-  padding: 80px 0 180px;
+  padding: 80px 0 170px;
 }
 #about .textbox {
-  width: 280px;
+  width: 300px;
 }
 #about .textbox h1 {
   font-size: 40px;
@@ -192,60 +192,42 @@ header .menu .navbar nav a:hover {
   margin: 10px 0;
 }
 #about .textbox p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #6c757d;
-  line-height: 1.8;
+  line-height: 1.7;
 }
-#about .textbox h5 {
+#about h5 {
   font-size: 19px;
   font-weight: 700;
   line-height: 1.3;
 }
-#about .position1 {
+#about li {
   display: flex;
   position: relative;
   margin-bottom: 100px;
+}
+#about li .imgbox, #about li .minibox {
+  border: 8px solid #e0e0e0;
+  border-radius: 100%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  left: 470px;
+}
+#about li .minibox {
+  color: white;
+  background-color: #ffc800;
+  padding: 40px 40px;
 }
 #about .position1 .textbox {
   text-align: end;
-}
-#about .position1 .imgbox {
-  border: 8px solid #e0e0e0;
-  border-radius: 100%;
-  width: 170px;
-  height: 170px;
-  position: absolute;
-  left: 470px;
-}
-#about .position2 {
-  display: flex;
-  position: relative;
-  margin-bottom: 100px;
+  transform: translate(130px, 0px);
 }
 #about .position2 .textbox {
   text-align: start;
+  transform: translate(680px, 0px);
 }
-#about .position2 .imgbox {
-  border: 8px solid #e0e0e0;
-  border-radius: 100%;
-  width: 170px;
-  height: 170px;
-  position: absolute;
-  left: 470px;
-}
-#about .position2 .minibox {
-  color: white;
-  background-color: #ffc400;
-  border: 8px solid #e0e0e0;
-  border-radius: 100%;
-  width: 175px;
-  height: 175px;
-  padding: 45px;
-  position: absolute;
-  left: 470px;
-}
-
 #welcome {
   color: white;
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
