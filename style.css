@@ -65,10 +65,12 @@ header .menu .navbar nav a:hover {
   font-size: 40px;
   font-weight: 700;
 }
-#services .textbox h3 {
+#services .textbox h3, #services .textbox p {
   color: #6c757d;
   font-size: 18px;
   font-weight: 400;
+}
+#services .textbox h3 {
   margin: 20px 0 48px;
 }
 #services .textbox h2 {
@@ -77,9 +79,6 @@ header .menu .navbar nav a:hover {
   margin: 20px 0 25px;
 }
 #services .textbox p {
-  color: #6c757d;
-  font-size: 18px;
-  font-weight: 400;
   line-height: 1.6;
 }
 #services ul {
@@ -169,26 +168,24 @@ header .menu .navbar nav a:hover {
 #about {
   padding: 80px 0 170px;
 }
-#about .textbox {
-  width: 300px;
-}
-#about .textbox h1 {
+#about h1 {
   font-size: 40px;
   font-weight: 700;
 }
-#about .textbox h4 {
-  font-size: 16px;
+#about h4 {
+  font-size: 18px;
   font-weight: 400;
-  margin: 16px 0 64px;
   color: #6c757d;
+  margin: 16px 0 64px;
 }
-#about .textbox h2 {
+#about .textbox {
+  width: 300px;
+}
+#about .textbox h2, #about .textbox h3 {
   font-size: 25px;
   font-weight: 700;
 }
 #about .textbox h3 {
-  font-size: 25px;
-  font-weight: 700;
   margin: 10px 0;
 }
 #about .textbox p {
@@ -197,15 +194,13 @@ header .menu .navbar nav a:hover {
   color: #6c757d;
   line-height: 1.7;
 }
-#about h5 {
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 1.3;
-}
 #about li {
   display: flex;
   position: relative;
   margin-bottom: 100px;
+}
+#about li .textbox {
+  width: aut;
 }
 #about li .imgbox, #about li .minibox {
   border: 8px solid #e0e0e0;
@@ -220,6 +215,11 @@ header .menu .navbar nav a:hover {
   background-color: #ffc800;
   padding: 40px 40px;
 }
+#about li .minibox h5 {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+}
 #about .position1 .textbox {
   text-align: end;
   transform: translate(130px, 0px);
@@ -228,6 +228,78 @@ header .menu .navbar nav a:hover {
   text-align: start;
   transform: translate(680px, 0px);
 }
+@media screen and (max-width: 768px) {
+  #about .textbox {
+    width: 337px;
+  }
+  #about li .imgbox {
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+    position: static;
+  }
+  #about .position1 .textbox {
+    text-align: start;
+    transform: none;
+  }
+  #about .position2 .textbox {
+    text-align: start;
+    transform: none;
+  }
+  #about .position2 .minibox {
+    width: 80px;
+    height: 80px;
+    padding: 15px 15px;
+    position: static;
+  }
+  #about .position2 .minibox h5 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #about .textbox {
+    width: 220px;
+  }
+  #about li .imgbox, #about li .minibox {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 297px;
+  }
+  #about li .minibox {
+    padding: 18px 18px;
+  }
+  #about li .minibox h5 {
+    font-size: 15px;
+  }
+  #about .position1 .textbox {
+    transform: translate(50px, 0px);
+  }
+  #about .position2 .textbox {
+    transform: translate(425px, 0px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  #about li .imgbox, #about li .minibox {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 390px;
+  }
+  #about li .minibox {
+    padding: 35px 35px;
+  }
+  #about li .minibox h5 {
+    font-size: 19px;
+  }
+  #about .position1 .textbox {
+    transform: translate(60px, 0px);
+  }
+  #about .position2 .textbox {
+    transform: translate(570px, 0px);
+  }
+}
+
 #welcome {
   color: white;
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
@@ -273,10 +345,12 @@ header .menu .navbar nav a:hover {
   font-size: 40px;
   font-weight: 700;
 }
-#amazing h3 {
+#amazing h3, #amazing h4 {
   color: #6c757d;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
+}
+#amazing h3 {
   margin: 16px 0 64px;
 }
 #amazing h2 {
@@ -285,17 +359,14 @@ header .menu .navbar nav a:hover {
   margin-top: 24px;
 }
 #amazing h4 {
-  color: #6c757d;
-  font-size: 16px;
-  font-weight: 400;
   margin: 10px 0 22px;
 }
 #amazing .txtbox {
-  width: 580px;
+  width: 650px;
 }
 #amazing .txtbox p {
   color: #6c757d;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
 }
