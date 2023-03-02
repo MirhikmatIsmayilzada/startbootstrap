@@ -165,18 +165,18 @@ header .menu .navbar nav a:hover {
   opacity: 0.9;
 }
 
-#about .txtbox h1 {
+#about .textbox {
+  width: 300px;
+}
+#about .textbox h1 {
   font-size: 40px;
   font-weight: 700;
 }
-#about .txtbox h4 {
+#about .textbox h4 {
   font-size: 18px;
   font-weight: 400;
   color: #6c757d;
   margin: 16px 0 64px;
-}
-#about .textbox {
-  width: 300px;
 }
 #about .textbox h2, #about .textbox h3 {
   font-size: 25px;
@@ -192,14 +192,8 @@ header .menu .navbar nav a:hover {
   line-height: 1.7;
 }
 #about .box {
-  margin-bottom: 100px;
-  position: relative;
-}
-#about .box .imgbox, #about .box .minibox {
-  border: 8px solid #e0e0e0;
-  border-radius: 100%;
-  width: 170px;
-  height: 170px;
+  display: flex;
+  justify-content: center;
 }
 #about .box .minibox {
   color: white;
@@ -211,10 +205,29 @@ header .menu .navbar nav a:hover {
   font-weight: 700;
   line-height: 1.3;
 }
-#about .one .textbox {
+#about .imgbox, #about .minibox {
+  border: 8px solid #e0e0e0;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+#about ul {
+  padding: 0 12.5%;
+}
+#about ul li {
+  display: flex;
+  margin-bottom: 100px;
+}
+#about ul li .imgbox {
+  margin: 0 5%;
+}
+#about ul .one .textbox {
   text-align: end;
 }
-#about .two .textbox {
+#about ul .two {
+  justify-content: end;
+}
+#about ul .two .textbox {
   text-align: start;
 }
 
