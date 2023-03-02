@@ -165,14 +165,11 @@ header .menu .navbar nav a:hover {
   opacity: 0.9;
 }
 
-#about {
-  padding: 80px 0 170px;
-}
-#about h1 {
+#about .txtbox h1 {
   font-size: 40px;
   font-weight: 700;
 }
-#about h4 {
+#about .txtbox h4 {
   font-size: 18px;
   font-weight: 400;
   color: #6c757d;
@@ -194,110 +191,31 @@ header .menu .navbar nav a:hover {
   color: #6c757d;
   line-height: 1.7;
 }
-#about li {
-  display: flex;
-  position: relative;
+#about .box {
   margin-bottom: 100px;
+  position: relative;
 }
-#about li .textbox {
-  width: aut;
-}
-#about li .imgbox, #about li .minibox {
+#about .box .imgbox, #about .box .minibox {
   border: 8px solid #e0e0e0;
   border-radius: 100%;
   width: 170px;
   height: 170px;
-  position: absolute;
-  left: 470px;
 }
-#about li .minibox {
+#about .box .minibox {
   color: white;
   background-color: #ffc800;
   padding: 40px 40px;
 }
-#about li .minibox h5 {
-  font-size: 19px;
+#about .box .minibox h5 {
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.3;
 }
-#about .position1 .textbox {
+#about .one .textbox {
   text-align: end;
-  transform: translate(130px, 0px);
 }
-#about .position2 .textbox {
+#about .two .textbox {
   text-align: start;
-  transform: translate(680px, 0px);
-}
-@media screen and (max-width: 768px) {
-  #about .textbox {
-    width: 337px;
-  }
-  #about li .imgbox {
-    width: 80px;
-    height: 80px;
-    margin-right: 25px;
-    position: static;
-  }
-  #about .position1 .textbox {
-    text-align: start;
-    transform: none;
-  }
-  #about .position2 .textbox {
-    text-align: start;
-    transform: none;
-  }
-  #about .position2 .minibox {
-    width: 80px;
-    height: 80px;
-    padding: 15px 15px;
-    position: static;
-  }
-  #about .position2 .minibox h5 {
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #about .textbox {
-    width: 220px;
-  }
-  #about li .imgbox, #about li .minibox {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 297px;
-  }
-  #about li .minibox {
-    padding: 18px 18px;
-  }
-  #about li .minibox h5 {
-    font-size: 15px;
-  }
-  #about .position1 .textbox {
-    transform: translate(50px, 0px);
-  }
-  #about .position2 .textbox {
-    transform: translate(425px, 0px);
-  }
-}
-@media screen and (max-width: 1200px) {
-  #about li .imgbox, #about li .minibox {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    left: 390px;
-  }
-  #about li .minibox {
-    padding: 35px 35px;
-  }
-  #about li .minibox h5 {
-    font-size: 19px;
-  }
-  #about .position1 .textbox {
-    transform: translate(60px, 0px);
-  }
-  #about .position2 .textbox {
-    transform: translate(570px, 0px);
-  }
 }
 
 #welcome {
