@@ -270,11 +270,11 @@ header .menu .navbar nav a:hover {
   }
 }
 @media screen and (min-width: 768px) {
-  #about .minibox {
-    padding: 11px 11px;
+  #about .box .minibox {
+    padding: 13px 13px;
   }
-  #about .minibox h5 {
-    font-size: 12px;
+  #about .box .minibox h5 {
+    font-size: 15px;
   }
   #about .imgbox, #about .minibox {
     width: 100px;
@@ -287,10 +287,10 @@ header .menu .navbar nav a:hover {
     width: 220px;
   }
   #about ul .one {
-    padding-left: 55px;
+    padding-left: 56px;
   }
   #about ul .two {
-    padding-right: 55px;
+    padding-right: 56px;
   }
 }
 
