@@ -25,6 +25,8 @@ header {
 }
 header .menu .imgbox {
   width: 140px;
+}
+header .menu .imgbox img {
   cursor: pointer;
 }
 header .menu .navbar .btn {
@@ -43,6 +45,7 @@ header .menu .navbar nav a {
   font-size: 16px;
   font-weight: 400;
   margin-right: 30px;
+  transition: 0.3s;
   cursor: pointer;
 }
 header .menu .navbar nav a:hover {
@@ -59,7 +62,7 @@ header .menu .navbar nav a:hover {
 }
 
 #services .textbox {
-  padding: 0 15px;
+  padding: 0 20px;
 }
 #services .textbox h1 {
   font-size: 40px;
@@ -76,7 +79,7 @@ header .menu .navbar nav a:hover {
 #services .textbox h2 {
   font-size: 24px;
   font-weight: 700;
-  margin: 20px 0 25px;
+  margin: 20px 16px 25px;
 }
 #services .textbox p {
   line-height: 1.6;
@@ -100,19 +103,13 @@ header .menu .navbar nav a:hover {
 #services ul li .icon i {
   font-size: 60px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) {
   #services .textbox {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  #services .textbox {
-    padding: 0 25px;
+    padding: 0 10px;
   }
 }
 
 #portfolio {
-  padding: 80px 0;
   background-color: #f8f9fa;
 }
 #portfolio .textbox h1 {
@@ -191,107 +188,27 @@ header .menu .navbar nav a:hover {
   color: #6c757d;
   line-height: 1.7;
 }
-#about .box {
-  display: flex;
-  justify-content: center;
+#about ul {
+  position: relative;
 }
-#about .box .minibox {
-  color: white;
-  background-color: #ffc800;
-  padding: 40px 40px;
-}
-#about .box .minibox h5 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.3;
-}
-#about .imgbox, #about .minibox {
+#about ul li .imgbox, #about ul li .minibox {
   border: 8px solid #e0e0e0;
   border-radius: 50%;
   width: 170px;
   height: 170px;
 }
-#about ul {
-  padding: 0 12.5%;
+#about ul li .minibox {
+  color: white;
+  background-color: #ffc800;
+  padding: 40px 40px;
 }
-#about ul li {
-  display: flex;
-  margin-bottom: 100px;
-}
-#about ul li .imgbox {
-  margin: 0 5%;
+#about ul li .minibox h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
 }
 #about ul .one .textbox {
   text-align: end;
-}
-#about ul .two {
-  justify-content: end;
-}
-#about ul .two .textbox {
-  text-align: start;
-}
-@media screen and (max-width: 768px) {
-  #about .box {
-    display: flex;
-    justify-content: start;
-    padding-bottom: 70px;
-  }
-  #about .box .minibox {
-    margin-left: 22px;
-    padding: 11px 11px;
-  }
-  #about .box .minibox h5 {
-    font-size: 12px;
-  }
-  #about .imgbox, #about .minibox {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-  }
-  #about ul {
-    padding: 0;
-  }
-  #about ul li {
-    display: flex;
-    margin-bottom: 100px;
-  }
-  #about ul li .imgbox {
-    margin: 0 5%;
-  }
-  #about ul li .textbox {
-    margin-left: 140px;
-    width: 360px;
-  }
-  #about ul .one .textbox {
-    text-align: start;
-  }
-  #about ul .two {
-    justify-content: start;
-  }
-}
-@media screen and (min-width: 768px) {
-  #about .box .minibox {
-    padding: 13px 13px;
-  }
-  #about .box .minibox h5 {
-    font-size: 15px;
-  }
-  #about .imgbox, #about .minibox {
-    width: 100px;
-    height: 100px;
-  }
-  #about ul {
-    padding: 0;
-  }
-  #about ul li .textbox {
-    width: 220px;
-  }
-  #about ul .one {
-    padding-left: 56px;
-  }
-  #about ul .two {
-    padding-right: 56px;
-  }
 }
 
 #welcome {
@@ -316,6 +233,13 @@ header .menu .navbar nav a:hover {
   font-size: 18px;
   font-weight: 700;
   padding: 20px 40px;
+  cursor: pointer;
+}
+#welcome .btn h4 {
+  cursor: pointer;
+}
+#welcome .btn:hover {
+  background-color: #d1a400;
 }
 @media screen and (max-width: 768px) {
   #welcome h1 {
@@ -393,9 +317,22 @@ header .menu .navbar nav a:hover {
 #amazing .box ul li .icon i {
   font-size: 16px;
 }
+@media screen and (min-width: 576px) {
+  #amazing .txtbox {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #amazing .txtbox {
+    width: 620px;
+  }
+}
 
 #social {
   padding: 50px 0;
+}
+#social .imgbox img {
+  cursor: pointer;
 }
 #social .one {
   width: 210px;
@@ -435,13 +372,13 @@ header .menu .navbar nav a:hover {
   font-size: 18px;
   font-weight: 700;
   opacity: 0.6;
-  cursor: pointer;
 }
 #contact input {
   padding: 21px;
   width: 100%;
   font-weight: 700;
   font-size: 16px;
+  cursor: text;
 }
 #contact textarea {
   padding: 21px;
@@ -449,6 +386,7 @@ header .menu .navbar nav a:hover {
   border-radius: 5px;
   font-weight: 700;
   font-size: 16px;
+  cursor: text;
 }
 
 footer {
@@ -458,6 +396,12 @@ footer h1, footer h2, footer h3 {
   font-size: 15px;
   font-weight: 400;
   color: #505050;
+}
+footer h1 {
+  cursor: text;
+}
+footer h2, footer h3 {
+  cursor: pointer;
 }
 footer h2 {
   margin-right: 20px;
