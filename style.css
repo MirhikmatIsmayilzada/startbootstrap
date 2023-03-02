@@ -230,6 +230,69 @@ header .menu .navbar nav a:hover {
 #about ul .two .textbox {
   text-align: start;
 }
+@media screen and (max-width: 768px) {
+  #about .box {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 70px;
+  }
+  #about .box .minibox {
+    margin-left: 22px;
+    padding: 11px 11px;
+  }
+  #about .box .minibox h5 {
+    font-size: 12px;
+  }
+  #about .imgbox, #about .minibox {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+  }
+  #about ul {
+    padding: 0;
+  }
+  #about ul li {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  #about ul li .imgbox {
+    margin: 0 5%;
+  }
+  #about ul li .textbox {
+    margin-left: 140px;
+    width: 360px;
+  }
+  #about ul .one .textbox {
+    text-align: start;
+  }
+  #about ul .two {
+    justify-content: start;
+  }
+}
+@media screen and (min-width: 768px) {
+  #about .minibox {
+    padding: 11px 11px;
+  }
+  #about .minibox h5 {
+    font-size: 12px;
+  }
+  #about .imgbox, #about .minibox {
+    width: 100px;
+    height: 100px;
+  }
+  #about ul {
+    padding: 0;
+  }
+  #about ul li .textbox {
+    width: 220px;
+  }
+  #about ul .one {
+    padding-left: 55px;
+  }
+  #about ul .two {
+    padding-right: 55px;
+  }
+}
 
 #welcome {
   color: white;

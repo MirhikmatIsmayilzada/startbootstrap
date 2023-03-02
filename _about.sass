@@ -49,3 +49,50 @@
             justify-content: end
             .textbox
                 text-align: start
+
+    @media screen and ( max-width: 768px )
+        .box
+            display: flex
+            justify-content: start
+            padding-bottom: 70px
+            .minibox
+                margin-left: 22px
+                padding: 11px 11px
+                h5
+                    font-size: 12px
+        .imgbox, .minibox
+            width: 80px
+            height: 80px
+            position: absolute
+        ul
+            padding: 0
+            li
+                display: flex
+                margin-bottom: 100px
+                .imgbox
+                    margin: 0 5%
+                .textbox
+                    margin-left: 140px
+                    width: 360px
+            .one
+                .textbox
+                    text-align: start
+            .two
+                justify-content: start
+    @media screen and ( min-width: 768px )
+        .minibox
+            padding: 11px 11px
+            h5
+                font-size: 12px
+        .imgbox, .minibox
+            width: 100px
+            height: 100px
+        ul
+            padding: 0
+            li
+                .textbox
+                    width: 220px
+            .one
+                padding-left: 55px
+            .two
+                padding-right: 55px
