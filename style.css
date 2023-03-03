@@ -189,17 +189,14 @@ header .menu .navbar nav a:hover {
   line-height: 1.7;
 }
 #about .left {
-  position: absolute;
-  top: 0;
-  left: 150px;
   text-align: end;
+  position: relative;
 }
 #about .right {
-  position: absolute;
-  top: 0;
-  right: 150px;
+  float: right;
 }
 #about .box {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -208,6 +205,7 @@ header .menu .navbar nav a:hover {
   border-radius: 50%;
   width: 170px;
   height: 170px;
+  position: absolute;
 }
 #about .box .minibox {
   color: white;
