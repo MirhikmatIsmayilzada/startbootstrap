@@ -1,6 +1,5 @@
 #about
     .textbox
-        width: 70%
         h1
             font-size: 40px
             font-weight: 700
@@ -21,8 +20,8 @@
             line-height: 1.7
     .left,.right
         position: relative
-        left: 100px
         bottom: 80px
+        padding: 0 59px 0 100px
     .box
         display: flex
         .imgbox, .minibox
@@ -33,7 +32,7 @@
         .minibox
             color: #ffff
             background-color: #ffc800
-            padding: 10px 10px
+            padding: 10px 
             h5
                 font-size: 12px
                 font-weight: 700
@@ -41,24 +40,59 @@
 
     @media screen and ( min-width: 768px )
         .left,.right
-            width: 30%
-            position: relative
+            width: 41%
             bottom: 100px
         .left
-            left: 50px 
             text-align: end
+            padding: 0 20px 0 50px
         .right
-            left: 435px
+            padding: 0 50px 0 20px
+            float: right
         .box
-            display: flex
             justify-content: center
             .imgbox, .minibox
                 width: 100px
                 height: 100px
             .minibox
-                color: #ffff
-                background-color: #ffc800
-                padding: 10px 10px
+                padding: 13px
                 h5
-                    font-size: 12px
+                    font-size: 16px
 
+    @media screen and ( min-width: 992px )
+        .left,.right
+            width: 41%
+            bottom: 150px
+        .left
+            text-align: end
+            padding: 0 20px 0 50px
+        .right
+            padding: 0 50px 0 20px
+            float: right
+        .box
+            justify-content: center
+            .imgbox, .minibox
+                width: 150px
+                height: 150px
+            .minibox
+                padding: 30px
+                h5
+                    font-size: 20px
+    @media screen and ( min-width: 1200px )
+        .left,.right
+            width: 41%
+            bottom: 170px
+        .left
+            text-align: end
+            padding: 0 20px 0 120px
+        .right
+            padding: 0 120px 0 20px
+            float: right
+        .box
+            justify-content: center
+            .imgbox, .minibox
+                width: 170px
+                height: 170px
+            .minibox
+                padding: 39px
+                h5
+                    font-size: 20px                    

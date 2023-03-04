@@ -13,7 +13,7 @@ header
                 cursor: pointer
         .navbar
             .btn
-                display: none
+                display: flex
                 color: #9c9c9c
                 border: 1px solid #9c9c9c
                 border-radius: 4px
@@ -23,6 +23,7 @@ header
                     font-weight: 700
                     margin-right: 10px
             nav
+                display: none
                 a
                     font-size: 16px
                     font-weight: 400
@@ -31,12 +32,12 @@ header
                     cursor: pointer
                     &:hover
                         color: #ffc400
-    
-    @media screen and ( max-width: 992px )
+
+    @media screen and ( min-width: 992px )
         .menu
             .navbar
                 .btn
-                    display: block
-                    display: flex
-                nav
                     display: none
+                nav
+                    display: block
+                    

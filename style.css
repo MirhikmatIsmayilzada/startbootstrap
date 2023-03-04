@@ -30,7 +30,7 @@ header .menu .imgbox img {
   cursor: pointer;
 }
 header .menu .navbar .btn {
-  display: none;
+  display: flex;
   color: #9c9c9c;
   border: 1px solid #9c9c9c;
   border-radius: 4px;
@@ -40,6 +40,9 @@ header .menu .navbar .btn {
 header .menu .navbar .btn h6 {
   font-weight: 700;
   margin-right: 10px;
+}
+header .menu .navbar nav {
+  display: none;
 }
 header .menu .navbar nav a {
   font-size: 16px;
@@ -51,13 +54,12 @@ header .menu .navbar nav a {
 header .menu .navbar nav a:hover {
   color: #ffc400;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   header .menu .navbar .btn {
-    display: block;
-    display: flex;
+    display: none;
   }
   header .menu .navbar nav {
-    display: none;
+    display: block;
   }
 }
 
@@ -79,7 +81,8 @@ header .menu .navbar nav a:hover {
 #services .textbox h2 {
   font-size: 24px;
   font-weight: 700;
-  margin: 20px 16px 25px;
+  margin: 20px 16px 20px;
+  line-height: 1.2;
 }
 #services .textbox p {
   line-height: 1.6;
@@ -106,6 +109,16 @@ header .menu .navbar nav a:hover {
 @media screen and (min-width: 768px) {
   #services .textbox {
     padding: 0 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #services .textbox {
+    padding: 0 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #services .textbox {
+    padding: 0 20px;
   }
 }
 
@@ -162,9 +175,6 @@ header .menu .navbar nav a:hover {
   opacity: 0.9;
 }
 
-#about .textbox {
-  width: 70%;
-}
 #about .textbox h1 {
   font-size: 40px;
   font-weight: 700;
@@ -190,8 +200,8 @@ header .menu .navbar nav a:hover {
 }
 #about .left, #about .right {
   position: relative;
-  left: 100px;
   bottom: 80px;
+  padding: 0 59px 0 100px;
 }
 #about .box {
   display: flex;
@@ -205,7 +215,7 @@ header .menu .navbar nav a:hover {
 #about .box .minibox {
   color: white;
   background-color: #ffc800;
-  padding: 10px 10px;
+  padding: 10px;
 }
 #about .box .minibox h5 {
   font-size: 12px;
@@ -214,19 +224,18 @@ header .menu .navbar nav a:hover {
 }
 @media screen and (min-width: 768px) {
   #about .left, #about .right {
-    width: 30%;
-    position: relative;
+    width: 41%;
     bottom: 100px;
   }
   #about .left {
-    left: 50px;
     text-align: end;
+    padding: 0 20px 0 50px;
   }
   #about .right {
-    left: 435px;
+    padding: 0 50px 0 20px;
+    float: right;
   }
   #about .box {
-    display: flex;
     justify-content: center;
   }
   #about .box .imgbox, #about .box .minibox {
@@ -234,12 +243,64 @@ header .menu .navbar nav a:hover {
     height: 100px;
   }
   #about .box .minibox {
-    color: white;
-    background-color: #ffc800;
-    padding: 10px 10px;
+    padding: 13px;
   }
   #about .box .minibox h5 {
-    font-size: 12px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about .left, #about .right {
+    width: 41%;
+    bottom: 150px;
+  }
+  #about .left {
+    text-align: end;
+    padding: 0 20px 0 50px;
+  }
+  #about .right {
+    padding: 0 50px 0 20px;
+    float: right;
+  }
+  #about .box {
+    justify-content: center;
+  }
+  #about .box .imgbox, #about .box .minibox {
+    width: 150px;
+    height: 150px;
+  }
+  #about .box .minibox {
+    padding: 30px;
+  }
+  #about .box .minibox h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #about .left, #about .right {
+    width: 41%;
+    bottom: 170px;
+  }
+  #about .left {
+    text-align: end;
+    padding: 0 20px 0 120px;
+  }
+  #about .right {
+    padding: 0 120px 0 20px;
+    float: right;
+  }
+  #about .box {
+    justify-content: center;
+  }
+  #about .box .imgbox, #about .box .minibox {
+    width: 170px;
+    height: 170px;
+  }
+  #about .box .minibox {
+    padding: 39px;
+  }
+  #about .box .minibox h5 {
+    font-size: 20px;
   }
 }
 
