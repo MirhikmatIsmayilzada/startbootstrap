@@ -163,7 +163,7 @@ header .menu .navbar nav a:hover {
 }
 
 #about .textbox {
-  width: 300px;
+  width: 70%;
 }
 #about .textbox h1 {
   font-size: 40px;
@@ -188,34 +188,59 @@ header .menu .navbar nav a:hover {
   color: #6c757d;
   line-height: 1.7;
 }
-#about .left {
-  text-align: end;
+#about .left, #about .right {
   position: relative;
-}
-#about .right {
-  float: right;
+  left: 100px;
+  bottom: 80px;
 }
 #about .box {
-  position: relative;
   display: flex;
-  justify-content: center;
 }
 #about .box .imgbox, #about .box .minibox {
   border: 8px solid #e0e0e0;
   border-radius: 50%;
-  width: 170px;
-  height: 170px;
-  position: absolute;
+  width: 80px;
+  height: 80px;
 }
 #about .box .minibox {
   color: white;
   background-color: #ffc800;
-  padding: 40px 40px;
+  padding: 10px 10px;
 }
 #about .box .minibox h5 {
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.3;
+}
+@media screen and (min-width: 768px) {
+  #about .left, #about .right {
+    width: 30%;
+    position: relative;
+    bottom: 100px;
+  }
+  #about .left {
+    left: 50px;
+    text-align: end;
+  }
+  #about .right {
+    left: 435px;
+  }
+  #about .box {
+    display: flex;
+    justify-content: center;
+  }
+  #about .box .imgbox, #about .box .minibox {
+    width: 100px;
+    height: 100px;
+  }
+  #about .box .minibox {
+    color: white;
+    background-color: #ffc800;
+    padding: 10px 10px;
+  }
+  #about .box .minibox h5 {
+    font-size: 12px;
+  }
 }
 
 #welcome {

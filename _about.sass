@@ -1,6 +1,6 @@
 #about
     .textbox
-        width: 300px
+        width: 70%
         h1
             font-size: 40px
             font-weight: 700
@@ -19,26 +19,46 @@
             font-weight: 400
             color: #6c757d
             line-height: 1.7
-    .left
-        text-align: end
+    .left,.right
         position: relative
-    .right
-        float: right
+        left: 100px
+        bottom: 80px
     .box
-        position: relative
         display: flex
-        justify-content: center
         .imgbox, .minibox
             border: 8px solid #e0e0e0
             border-radius: 50%
-            width: 170px
-            height: 170px
-            position: absolute
+            width: 80px
+            height: 80px
         .minibox
             color: #ffff
             background-color: #ffc800
-            padding: 40px 40px
+            padding: 10px 10px
             h5
-                font-size: 20px
+                font-size: 12px
                 font-weight: 700
                 line-height: 1.3
+
+    @media screen and ( min-width: 768px )
+        .left,.right
+            width: 30%
+            position: relative
+            bottom: 100px
+        .left
+            left: 50px 
+            text-align: end
+        .right
+            left: 435px
+        .box
+            display: flex
+            justify-content: center
+            .imgbox, .minibox
+                width: 100px
+                height: 100px
+            .minibox
+                color: #ffff
+                background-color: #ffc800
+                padding: 10px 10px
+                h5
+                    font-size: 12px
+
