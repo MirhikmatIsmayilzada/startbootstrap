@@ -352,28 +352,28 @@ header .menu .navbar nav a:hover {
 #amazing {
   background-color: #f8f9fa;
 }
-#amazing h1 {
+#amazing .textbox {
   font-size: 40px;
   font-weight: 700;
 }
-#amazing h3, #amazing h4 {
+#amazing .textbox h3, #amazing .textbox h4 {
   color: #6c757d;
   font-size: 18px;
   font-weight: 400;
 }
-#amazing h3 {
+#amazing .textbox h3 {
   margin: 16px 0 64px;
 }
-#amazing h2 {
+#amazing .textbox h2 {
   font-size: 24px;
   font-weight: 700;
   margin-top: 24px;
 }
-#amazing h4 {
+#amazing .textbox h4 {
   margin: 10px 0 22px;
 }
 #amazing .txtbox {
-  width: 650px;
+  width: 90%;
 }
 #amazing .txtbox p {
   color: #6c757d;
@@ -410,14 +410,9 @@ header .menu .navbar nav a:hover {
 #amazing .box ul li .icon i {
   font-size: 16px;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
   #amazing .txtbox {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  #amazing .txtbox {
-    width: 620px;
+    width: 60%;
   }
 }
 
@@ -485,18 +480,18 @@ header .menu .navbar nav a:hover {
 footer {
   padding: 16px 0;
 }
-footer h1, footer h2, footer h3 {
+footer .textbox h1, footer .textbox h2, footer .textbox h3 {
   font-size: 15px;
   font-weight: 400;
   color: #505050;
 }
-footer h1 {
+footer .textbox h1 {
   cursor: text;
 }
-footer h2, footer h3 {
+footer .textbox h2, footer .textbox h3 {
   cursor: pointer;
 }
-footer h2 {
+footer .textbox h2 {
   margin-right: 20px;
 }
 footer ul {
